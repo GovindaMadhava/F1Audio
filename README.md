@@ -4,12 +4,11 @@ This repository contains the dataset extraction pipeline and baseline models for
 
 ## Repository Structure
 
-```
-├── baselines/                 # Baseline model implementations
-│   ├── stl/                   # Single-Task Learning (MLP) for RPM, Speed, Throttle, Gear
-│   ├── linear_probe/          # Linear/Ridge regression baselines
-│   ├── stl_team/              # 10-way Team Classification (MLP)
-│   └── linear_probe_team/     # Team Classification (Logistic Regression)
+```               # Baseline model implementations
+├── stl/                   # Single-Task Learning (MLP) for RPM, Speed, Throttle, Gear
+├── linear_probe/          # Linear/Ridge regression baselines
+├── stl_team/              # 10-way Team Classification (MLP)
+└── linear_probe_team/     # Team Classification (Logistic Regression)
 │
 ├── requirements.txt           # Minimal dependencies
 └── README.md
