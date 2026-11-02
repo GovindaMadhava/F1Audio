@@ -16,3 +16,4 @@ seaborn>=0.12
 
 # Utilities
 tqdm>=4.65
+pyarrow>=12.0
